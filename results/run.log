@@ -1,0 +1,53 @@
+Using device: mps
+Train samples: 5000 | Test samples: 10000
+
+============================================================
+Training with λ = 1e-05
+============================================================
+[λ=1e-05] epoch 1/10: train_ce=1.9324 sparsity_sum=1273604.5 sparsity_pct=0.00%
+[λ=1e-05] epoch 2/10: train_ce=1.6603 sparsity_sum=586256.2 sparsity_pct=0.00%
+[λ=1e-05] epoch 3/10: train_ce=1.5794 sparsity_sum=245956.9 sparsity_pct=0.00%
+[λ=1e-05] epoch 4/10: train_ce=1.5111 sparsity_sum=154868.3 sparsity_pct=0.00%
+[λ=1e-05] epoch 5/10: train_ce=1.4407 sparsity_sum=115812.9 sparsity_pct=0.00%
+[λ=1e-05] epoch 6/10: train_ce=1.3738 sparsity_sum=93522.1 sparsity_pct=0.00%
+[λ=1e-05] epoch 7/10: train_ce=1.3085 sparsity_sum=78701.6 sparsity_pct=0.00%
+[λ=1e-05] epoch 8/10: train_ce=1.2484 sparsity_sum=68316.9 sparsity_pct=28.04%
+[λ=1e-05] epoch 9/10: train_ce=1.1874 sparsity_sum=60655.5 sparsity_pct=53.09%
+[λ=1e-05] epoch 10/10: train_ce=1.1221 sparsity_sum=55026.6 sparsity_pct=65.12%
+
+============================================================
+Training with λ = 5e-05
+============================================================
+[λ=5e-05] epoch 1/10: train_ce=1.9333 sparsity_sum=1229343.3 sparsity_pct=0.00%
+[λ=5e-05] epoch 2/10: train_ce=1.7454 sparsity_sum=447525.7 sparsity_pct=0.00%
+[λ=5e-05] epoch 3/10: train_ce=1.7852 sparsity_sum=138749.4 sparsity_pct=0.00%
+[λ=5e-05] epoch 4/10: train_ce=1.7765 sparsity_sum=73411.2 sparsity_pct=0.00%
+[λ=5e-05] epoch 5/10: train_ce=1.7409 sparsity_sum=48885.0 sparsity_pct=0.00%
+[λ=5e-05] epoch 6/10: train_ce=1.6904 sparsity_sum=36181.3 sparsity_pct=0.00%
+[λ=5e-05] epoch 7/10: train_ce=1.6399 sparsity_sum=28381.4 sparsity_pct=0.08%
+[λ=5e-05] epoch 8/10: train_ce=1.6067 sparsity_sum=23122.8 sparsity_pct=82.59%
+[λ=5e-05] epoch 9/10: train_ce=1.5667 sparsity_sum=19447.5 sparsity_pct=91.73%
+[λ=5e-05] epoch 10/10: train_ce=1.5370 sparsity_sum=16765.0 sparsity_pct=94.44%
+
+============================================================
+Training with λ = 0.0002
+============================================================
+[λ=0.0002] epoch 1/10: train_ce=1.9364 sparsity_sum=1222327.2 sparsity_pct=0.00%
+[λ=0.0002] epoch 2/10: train_ce=1.8550 sparsity_sum=423589.5 sparsity_pct=0.00%
+[λ=0.0002] epoch 3/10: train_ce=2.0073 sparsity_sum=120883.7 sparsity_pct=0.00%
+[λ=0.0002] epoch 4/10: train_ce=2.0220 sparsity_sum=61665.9 sparsity_pct=0.00%
+[λ=0.0002] epoch 5/10: train_ce=1.9911 sparsity_sum=40180.2 sparsity_pct=0.00%
+[λ=0.0002] epoch 6/10: train_ce=1.9452 sparsity_sum=29116.7 sparsity_pct=0.00%
+[λ=0.0002] epoch 7/10: train_ce=1.9055 sparsity_sum=22413.6 sparsity_pct=0.00%
+[λ=0.0002] epoch 8/10: train_ce=1.8704 sparsity_sum=17972.1 sparsity_pct=95.72%
+[λ=0.0002] epoch 9/10: train_ce=1.8433 sparsity_sum=14841.6 sparsity_pct=98.51%
+[λ=0.0002] epoch 10/10: train_ce=1.8158 sparsity_sum=12541.3 sparsity_pct=99.18%
+
+=== Results ===
+    Lambda |  Test Acc (%) |  Sparsity (%)
+--------------------------------------------
+     1e-05 |         43.98 |         65.12
+     5e-05 |         40.73 |         94.44
+     2e-04 |         33.04 |         99.18
+Wrote /Users/rishabhsharma/Desktop/project2/results/metrics.json
+Wrote /Users/rishabhsharma/Desktop/project2/results/gate_distribution.png

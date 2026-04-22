@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+.venv/
+venv/
+
+# CIFAR-10 data (downloaded at runtime, >150MB)
+data/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
